@@ -1,0 +1,7 @@
+Please edit config.py to create the correct sql connection string and file location for your files.
+
+tests.py contains unit tests for file name/date parsing as well as the demographics and riskscore/quarters transformations.
+
+persondatabase_repository.py contains the database setup scripts (tables persist between runs, but will be added if missing) and the insert scripts
+
+main.py contains the ETL logic for the project. It has logging to the console and to an ExcelETL.log file, as well as the ability to use the provided filepath (from config file) as a location for multiple files to import per run.

@@ -1,0 +1,15 @@
+pip install pandas pyodbc xlrd
+
+Package         Version
+--------------- -------
+funcsigs        1.0.2
+numpy           1.16.6
+pandas          0.24.2
+pip             20.2.3
+pyodbc          4.0.30
+python-dateutil 2.8.1
+pytz            2020.1
+setuptools      44.1.1
+six             1.15.0
+wheel           0.35.1
+xlrd            1.2.0
